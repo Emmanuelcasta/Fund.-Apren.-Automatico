@@ -1,0 +1,34 @@
+# --- Python virtual environments ---
+# Ignore your local venv folder (your request)
+env/
+
+# Common virtualenv names (just in case)
+.venv/
+venv/
+ENV/
+
+# --- Python cache / build artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Jupyter / notebooks ---
+.ipynb_checkpoints/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
